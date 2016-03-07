@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C9309031C8E026000FAA28D /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C9309021C8E026000FAA28D /* RegisterView.xib */; };
+		6C9309071C8E102F00FAA28D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9309061C8E102F00FAA28D /* RegisterViewController.swift */; };
+		6C9309091C8E106900FAA28D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9309081C8E106900FAA28D /* LoginViewController.swift */; };
 		6CAE95371C878D1E00F66F6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAE95361C878D1E00F66F6A /* AppDelegate.swift */; };
 		6CAE95391C878D1E00F66F6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAE95381C878D1E00F66F6A /* ViewController.swift */; };
 		6CAE953C1C878D1E00F66F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CAE953A1C878D1E00F66F6A /* Main.storyboard */; };
@@ -36,7 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6C9309021C8E026000FAA28D /* RegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
+		6C9309061C8E102F00FAA28D /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6C9309081C8E106900FAA28D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6CAE95331C878D1E00F66F6A /* Pandango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pandango.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CAE95361C878D1E00F66F6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CAE95381C878D1E00F66F6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,10 +107,11 @@
 				6CAE95381C878D1E00F66F6A /* ViewController.swift */,
 				6CAE95641C878F7500F66F6A /* View.xib */,
 				6CAE953A1C878D1E00F66F6A /* Main.storyboard */,
-				6C9309021C8E026000FAA28D /* RegisterView.xib */,
+				6C9309081C8E106900FAA28D /* LoginViewController.swift */,
 				6CAE953D1C878D1E00F66F6A /* Assets.xcassets */,
 				6CAE953F1C878D1E00F66F6A /* LaunchScreen.storyboard */,
 				6CAE95421C878D1E00F66F6A /* Info.plist */,
+				6C9309061C8E102F00FAA28D /* RegisterViewController.swift */,
 			);
 			path = Pandango;
 			sourceTree = "<group>";
@@ -239,7 +242,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CAE95651C878F7500F66F6A /* View.xib in Resources */,
-				6C9309031C8E026000FAA28D /* RegisterView.xib in Resources */,
 				6CAE95411C878D1E00F66F6A /* LaunchScreen.storyboard in Resources */,
 				6CAE953E1C878D1E00F66F6A /* Assets.xcassets in Resources */,
 				6CAE953C1C878D1E00F66F6A /* Main.storyboard in Resources */,
@@ -267,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9309091C8E106900FAA28D /* LoginViewController.swift in Sources */,
+				6C9309071C8E102F00FAA28D /* RegisterViewController.swift in Sources */,
 				6CAE95391C878D1E00F66F6A /* ViewController.swift in Sources */,
 				6CAE95371C878D1E00F66F6A /* AppDelegate.swift in Sources */,
 			);
